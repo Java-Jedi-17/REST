@@ -1,4 +1,5 @@
 package ru.netology.rest;
 
-public class Authorities {
+public enum Authorities {
+    READ, WRITE, DELETE
 }
